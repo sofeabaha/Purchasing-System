@@ -16,7 +16,7 @@ from django.views.generic import TemplateView
 from django.core.exceptions import ObjectDoesNotExist
 from django.http.request import QueryDict
 from decimal import Decimal
-# from prettytable import PrettyTable
+from prettytable import PrettyTable
 from django.core.mail import send_mail
 from django.conf import settings
 import random

@@ -14,7 +14,7 @@ from datetime import datetime
 from app.models import Person,Item,Vendor
 from Quotation.models import Quotation, QuotationItem
 from PurchaseOrder.models import PurchaseOrder,PurchaseOrderItem
-
+from prettytable import PrettyTable
 from django.views.generic import TemplateView
 from django.core.exceptions import ObjectDoesNotExist
 from django.http.request import QueryDict
